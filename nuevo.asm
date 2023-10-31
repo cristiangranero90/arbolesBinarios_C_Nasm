@@ -14,7 +14,7 @@ crearArbolB:
     mov ebp, esp ;el nuevo base point es stack point
     push sizeOfNodo
     call malloc
-    call free
+;    call free
 
     ;manejo de la pila
     mov ebx, [ebp + 8]  ;Obtener el puntero al nodo izquierdo

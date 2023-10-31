@@ -19,9 +19,9 @@ int main(int argc, char const *argv[])
     struct Nodo* rder = crearArbolB(nodoIzq, nodoDer, 7);
     struct Nodo* raiz = crearArbolB(rizq, rder, 3);
 
-    printf("Valor del nodo: %d ", raiz->valor);
-    printf("Valor del nodo izquierdo: %d ", raiz->izq->valor);
-    printf("Valor del nodo derecho: %d" , raiz->der->valor);
+    printf("Valor del nodo: %d \n", raiz->valor);
+    printf("Valor del nodo izquierdo: %d \n", raiz->izq->valor);
+    printf("Valor del nodo derecho: %d \n" , raiz->der->valor);
 
     free(nodoIzq);
     free(nodoDer);
