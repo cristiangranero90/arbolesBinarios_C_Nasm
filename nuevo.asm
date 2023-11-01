@@ -2,8 +2,6 @@ extern malloc
 extern free
 global crearArbolB
 
-CMAIN:
-
 section .data  
     sizeOfNodo equ 12  
 
